@@ -4,14 +4,21 @@
 
 <body style="background-color: #fbf7ffff;">
     <!-- Тело -->
-    <div style="width: 99%; background-color: #040013ff;; height: 98%; position: absolute; align-self: center; background-image: url('img/sun.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;">
+    <div id="body" class="move"> 
+        <div id="test" style="width: 99%; background-color: #040013ff;; height: 98%; position: absolute; align-self: center; background-image: url('img/sun.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+        background-position: calc(width*0.5) calc(height*0.5);">
+        </div>
     </div>
 
     <!-- Заголовок -->
     <div style="width: 99%; background-color: #040013ff; border: #fbf7ffff solid; position: absolute;">
         <h1 style="color: #fbf7ffff; text-align: center; align-self: center; "> :/ Пока в космосе пусто...</h1>
     </div>
+
+    <script src="js/scroll.js"></script>
+    <script src="js/move.js"></script>
 </body>
