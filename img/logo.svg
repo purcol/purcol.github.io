@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="74.965179mm"
+   height="75.396126mm"
+   viewBox="0 0 74.965177 75.396124"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.08"
+     inkscape:cx="-1556.25"
+     inkscape:cy="2706.25"
+     inkscape:window-width="1920"
+     inkscape:window-height="1014"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g81410" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Слой 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-1262.5745,2112.1311)">
+    <ellipse
+       style="fill:none;stroke:#fbf7ff;stroke-width:0.999996;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle905"
+       cx="111.55782"
+       cy="135.94684"
+       rx="1811.833"
+       ry="1941.941" />
+    <g
+       id="g1040"
+       transform="translate(1274.8948,-902.02259)">
+      <g
+         id="g81410"
+         transform="translate(0,471.93088)"
+         inkscape:export-filename="/home/rostik/Desktop/old/astral/concept_render1.png"
+         inkscape:export-xdpi="100.9"
+         inkscape:export-ydpi="100.9">
+        <g
+           id="g24174"
+           transform="matrix(0.62897329,0,0,0.62897329,-395.18829,-1605.2616)"
+           style="font-weight:bold;font-size:167.185px;line-height:1.25;font-family:'Noto Looped Lao';-inkscape-font-specification:'Noto Looped Lao, Bold';stroke-width:0.420661">
+          <g
+             id="g24164"
+             style="stroke-width:0.420661"
+             transform="translate(53.725136)">
+            <path
+               id="path24158"
+               style="fill:#9e97b5;fill-opacity:1;stroke-width:6.38022;stroke-linecap:round;paint-order:markers stroke fill"
+               d="m 548.43156,219.98063 78.25057,5.0196 v 20.51166 l -78.25057,-5.0196 z"
+               sodipodi:nodetypes="ccccc"
+               transform="matrix(0.96592583,0.25881905,0.25881905,-0.96592583,0,0)" />
+            <path
+               id="path24160"
+               style="fill:#f2efff;fill-opacity:1;stroke-width:1.58989"
+               d="M 2665.8691,364.99805 2506.002,818.05664 H 2609 l 115.002,-382.91992 115.0019,382.91992 H 2942.002 L 2782.1348,364.99805 Z"
+               transform="matrix(0.26458333,0,0,0.26458333,-108.05254,-218.64084)"
+               sodipodi:nodetypes="cccccccc" />
+            <rect
+               style="fill:#f2efff;fill-opacity:1;stroke:none;stroke-width:6.38022;stroke-linecap:round;stroke-opacity:1;paint-order:markers stroke fill"
+               id="rect24162"
+               width="100.94379"
+               height="20.511662"
+               x="564.53479"
+               y="100.72153"
+               transform="rotate(-15)" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

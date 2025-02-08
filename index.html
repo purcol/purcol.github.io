@@ -1,24 +1,50 @@
 <!DOCTYPE html>
 
-<head></head>
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
 
 <body style="background-color: #fbf7ffff;">
     <!-- Тело -->
     <div id="body" class="move"> 
-        <div id="test" style="width: 99%; background-color: #040013ff;; height: 98%; position: absolute; align-self: center; background-image: url('img/sun.svg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: 100%;
-        background-position: calc(width*0.5) calc(height*0.5);">
+        <div id="test" class="titel_background" style="background-image: url('img/planets/all.svg');background-repeat: no-repeat;">
         </div>
     </div>
 
     <!-- Заголовок -->
-    <div style="width: 99%; background-color: #040013ff; border: #fbf7ffff solid; position: absolute;">
-        <h1 style="color: #fbf7ffff; text-align: center; align-self: center; "> :/ Пока в космосе пусто...</h1>
+    <div class="titel">
+        
+        <div class="tilel_nodes"> <button class="links" onclick="window.open('https://t.me/wwelol08')">
+                <img src="img/telegram.svg" alt="Clickable Image" style="width: 75px; height: 75px;">
+        </button></div>
+
+        <div class="tilel_nodes"> <button class="links" onclick="window.open('https://www.youtube.com/@lebri__');">
+                <img src="img/youtube.svg" alt="Clickable Image" style="width: 75px; height: 75px;">
+        </button></div>
+
+        <div class="tilel_nodes"> <button class="links" onclick="window.open('https://github.com/purcol')">
+                <img src="img/github.svg" alt="Clickable Image" style="width: 75px; height: 75px;">
+        </button></div>
+
+        <!-- текст -->
+        <h1 class="titel_text tilel_nodes"> :/ Пока в космосе пусто...</h1>
+        <!-- текст -->
+
+        <div class="tilel_nodes"> <button class="links" onclick="window.open('https://t.me/wwelol08')">
+            <img src="img/telegram.svg" alt="Clickable Image" style="width: 75px; height: 75px;">
+        </button></div>
+
+        <div class="tilel_nodes"> <button class="links" onclick="window.open('https://www.youtube.com/@lebri__');">
+            <img src="img/youtube.svg" alt="Clickable Image" style="width: 75px; height: 75px;">
+        </button></div>
+
+        <div class="tilel_nodes"> <button class="links" onclick="window.open('https://github.com/purcol')">
+            <img src="img/github.svg" alt="Clickable Image" style="width: 75px; height: 75px;">
+        </button></div>
+
     </div>
 
     <script src="js/scroll.js"></script>
     <script src="js/move.js"></script>
+    <script src="js/rotation.js"></script>
 </body>

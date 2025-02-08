@@ -1,0 +1,38 @@
+.links {
+    background-color: rgba(0, 255, 255, 0);
+    align-self: center;
+    border: none;
+}
+
+div.titel {
+    width: 99%;
+    background-color: #040013ff;
+    border: #fbf7ffff solid;
+    position: absolute;
+    display: flex;
+}
+
+.titel_text {
+    color: #fbf7ffff;
+    text-align: center;
+    align-self: center;
+    flex: 0 1 70%;
+}
+
+.tilel_nodes {
+    flex-grow: 1;
+    align-self: center;
+}
+
+div.titel_background{
+    width: 99%;
+    background-color: #040013ff;
+    height: 98%;
+    position: absolute;
+    align-self: center;
+    background-image: url('img/planets/all.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-position: calc(width*0.5) calc(height*0.5);
+}
