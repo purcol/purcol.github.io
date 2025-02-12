@@ -33,17 +33,7 @@ window.onwheel=({deltaY})=>{
     coll.sum = 0;
 
     //магия с изменением html
-    node.innerHTML =`<div style="width: 99%;
-    background-color: #040013ff;
-    height: 98%;
-    position: absolute;
-    align-self: center;
-    background-image: url('img/planets/all.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: ${scale}%;
-    background-position: calc(width*0.5) calc(height*0.5);">
-    </div> `;
+    node.style.scale = scale;
+    console.log("!");
 };
 

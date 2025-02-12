@@ -4,6 +4,32 @@
     border: none;
 }
 
+#body {
+    background-color: #040013ff;
+    overflow: hidden;
+    width: 99%;
+    height: 98%;
+    position: absolute;
+    align-self: center;
+}
+
+div.test_cube {
+    animation: test 1s infinite;
+    background-color: aliceblue;
+    width: 100px;
+    height: 100px;
+    position: absolute; 
+    left: 50%; 
+    right: 50%;
+    bottom: 50%;
+    top: 50%;
+}
+
+@keyframes test {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(180deg);}
+}
+
 div.titel {
     width: 99%;
     background-color: #040013ff;
