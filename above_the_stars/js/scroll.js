@@ -5,7 +5,7 @@ let scale = 100;
 let ofsetX = 1000000;
 let ofsetY = 0;
 
-var node = document.getElementById('body');
+var node = document.getElementById('in_body');
 
 let coll = {};
 
@@ -33,7 +33,7 @@ window.onwheel=({deltaY})=>{
     coll.sum = 0;
 
     //магия с изменением html
-    node.style.scale = scale;
+    node.style.scale = scale*0.01;
     console.log("!");
 };
 
