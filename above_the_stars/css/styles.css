@@ -13,16 +13,23 @@
     align-self: center;
 }
 
-div.test_cube {
-    animation: test 1s infinite;
-    background-color: aliceblue;
-    width: 100px;
-    height: 100px;
+img.system_img {
+    transform: scale(1, 1);
+}
+
+.chenter {
     position: absolute; 
     left: 50%; 
     right: 50%;
     bottom: 50%;
     top: 50%;
+}
+
+div.test_cube {
+    animation: test 1s infinite;
+    background-color: aliceblue;
+    width: 100px;
+    height: 100px;
 }
 
 @keyframes test {
