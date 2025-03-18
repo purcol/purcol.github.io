@@ -2,7 +2,8 @@
 
 <head>
     <link rel="stylesheet" href="css/styles.css">
-    
+    <script src="https://cdn.jsdelivr.net/npm/@simondmc/popup-js@1.4.3/popup.min.js"></script>
+    <script src="js/test_popup.js"></script>
 </head>
 
 <body style="background-color: #fbf7ffff;">
@@ -19,36 +20,40 @@
         </div>
     </div>
 
-    <!-- Заголовок -->
-    <div class="titel">
+    <!-- Заголовок ->
+    <div class="titel_top">
         
-        <div class="tilel_nodes"> <button class="links" onclick="window.open('https://t.me/wwelol08')">
-                <img src="img/telegram.svg" alt="Clickable Image" style="width: 75px; height: 75px;">
-        </button></div>
+        <div class="tilel_nodes_no_margin"><button class="links tilel_nodes" onclick="show_list()"></button>
+                <img src="img/list.svg" alt="Clickable Image" style="width: 75px; height: 75px;"></button>
 
-        <div class="tilel_nodes"> <button class="links" onclick="window.open('https://www.youtube.com/@lebri__');">
-                <img src="img/youtube.svg" alt="Clickable Image" style="width: 75px; height: 75px;">
-        </button></div>
+    </div>-->
 
-        <div class="tilel_nodes"> <button class="links" onclick="window.open('https://github.com/purcol')">
-                <img src="img/github.svg" alt="Clickable Image" style="width: 75px; height: 75px;">
-        </button></div>
+    <!-- Статьи -->
+    <div class="titel_left" id="list">
+        
+        <div class="links tilel_nodes" style="height: 1px; width: 90%; margin: 1% 10%; border: #fbf7ffff solid;"></div>
+        <div class="links tilel_nodes"><b><i>Wwelol's</i></b></div>
+        
+        <button class="links tilel_nodes" onclick="window.open('https://t.me/wwelol08')"><div>telegram</div></button>
+        <button class="links tilel_nodes" onclick="window.open('https://www.youtube.com/@lebri__')"><div>youtube</div></button>
+        <button class="links tilel_nodes" onclick="window.open('https://github.com/purcol')"><div>github</div></button>
 
-        <!-- текст -->
-        <h1 class="titel_text tilel_nodes"> :/ Пока в космосе пусто...</h1>
-        <!-- текст -->
+        <div class="links tilel_nodes" style="height: 1px; width: 90%; margin: 1% 10%; border: #fbf7ffff solid;"></div>
+        <div class="links tilel_nodes"><b><i>Maks's</i></b></div>
 
-        <div class="tilel_nodes"> <button class="links" onclick="window.open('https://t.me/wwelol08')">
-            <img src="img/telegram.svg" alt="Clickable Image" style="width: 75px; height: 75px;">
-        </button></div>
+        <button class="links tilel_nodes" onclick="window.open('https://t.me/Orionchic')"><div>telegram</div></button>
+        <button class="links tilel_nodes" onclick="window.open('https://www.youtube.com/@masterorion1662')"><div>youtube</div></button>
+        <button class="links tilel_nodes" onclick="window.open('https://github.com/Makssupertop1')"><div>github</div></button>
 
-        <div class="tilel_nodes"> <button class="links" onclick="window.open('https://www.youtube.com/@lebri__');">
-            <img src="img/youtube.svg" alt="Clickable Image" style="width: 75px; height: 75px;">
-        </button></div>
+        <div class="links tilel_nodes" style="height: 1px; width: 90%; margin: 1% 10%; border: #fbf7ffff solid;"></div>
+        <div class="links tilel_nodes"><b><i>Статьи</i></b></div>
 
-        <div class="tilel_nodes"> <button class="links" onclick="window.open('https://github.com/purcol')">
-            <img src="img/github.svg" alt="Clickable Image" style="width: 75px; height: 75px;">
-        </button></div>
+        <button class="links tilel_nodes" onclick="open_sun()"><div>Солнце</div></button>
+
+        <div class="links tilel_nodes" style="height: 1px; width: 90%; margin: 1% 10%; border: #fbf7ffff solid;"></div>
+        <div class="links tilel_nodes"><b><i>Разрабам</i></b></div>
+
+        <button class="links tilel_nodes" onclick="window.open('https://popup-js.readthedocs.io/en/latest/')"><div>popupJs doc.</div></button>
 
     </div>
 

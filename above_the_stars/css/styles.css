@@ -37,12 +37,27 @@ div.test_cube {
     to {transform: rotate(180deg);}
 }
 
-div.titel {
+div.titel_top {
     width: 99%;
     background-color: #040013ff;
     border: #fbf7ffff solid;
     position: absolute;
     display: flex;
+}
+
+div.titel_left {
+    height: 99.3%;
+    width: 10%;
+    background-color: #040013ff;
+    border: #fbf7ffff solid;
+    position: absolute;
+    display: flex;
+    flex: 0 1 1%;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+    left: -0.1%;
+    top: -0.1%;
 }
 
 .titel_text {
@@ -53,8 +68,18 @@ div.titel {
 }
 
 .tilel_nodes {
-    flex-grow: 1;
+    flex-grow: 0;
     align-self: center;
+    color: #fbf7ffff;
+    height: 21px;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+.tilel_nodes_no_margin {
+    flex-grow: 0;
+    align-self: center;
+    color: #fbf7ffff;
 }
 
 div.titel_background{
