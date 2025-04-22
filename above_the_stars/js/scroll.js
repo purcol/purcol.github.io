@@ -1,11 +1,11 @@
-let scale = 100;
+let scale = 500;
 //console.log("!");
 //console.log(`scale: ${scale}`)
 
 let ofsetX = 1000000;
 let ofsetY = 0;
 
-var node = document.getElementById('in_body');
+var node = document.getElementById('sys_img');
 
 let coll = {};
 
@@ -33,6 +33,10 @@ window.onwheel=({deltaY})=>{
     coll.sum = 0;
 
     //магия с изменением html
+    if(scale<250){scale=250;}
+    else if(scale>5000){scale=5000;}
+
+    node.style.position = "absolute";
     node.style.scale = scale*0.01;
     console.log("!");
 };

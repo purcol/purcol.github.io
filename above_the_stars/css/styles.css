@@ -94,3 +94,11 @@ div.titel_background{
     background-size: 100%;
     background-position: calc(width*0.5) calc(height*0.5);
 }
+
+#sys_img {
+    right: -17%;
+    top: 0%;
+    max-height: 100%;
+    max-width: 45%;
+    position: absolute;
+}

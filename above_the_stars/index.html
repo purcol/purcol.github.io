@@ -4,19 +4,20 @@
     <link rel="stylesheet" href="css/styles.css">
     <script src="https://cdn.jsdelivr.net/npm/@simondmc/popup-js@1.4.3/popup.min.js"></script>
     <script src="js/test_popup.js"></script>
+    <script src="js/obj_popup.js"></script>
 </head>
 
 <body style="background-color: #fbf7ffff;">
     <!-- Тело -->
-    <div id="body">
-        <div id="in_body">
-            <div class="test_cube chenter">
-                
-            </div>
-            <img src="img/planets/0.svg" class="system_img"></img>
+    <div class="background_of_background" style="background-repeat: no-repeat; overflow: hidden;">
+        <div id="body">
+            <div id="in_body">
+                <!--<div class="test_cube chenter">
 
-        <!-- <div id="test" class="titel_background" style="background-image: url('img/planets/all.svg');background-repeat: no-repeat;">
-        </div> -->
+                </div> -->
+                <img id="sys_img" src="img/planets/all.svg" style="scale: 5;"></img>
+
+            </div>
         </div>
     </div>
 
@@ -30,7 +31,25 @@
 
     <!-- Статьи -->
     <div class="titel_left" id="list">
-        
+        <div class="links tilel_nodes" style="height: 1px; width: 90%; margin: 1% 10%; border: #fbf7ffff solid;"></div>
+        <div class="links tilel_nodes"><b><i>Статьи</i></b></div>
+        <div class="links tilel_nodes" style="height: 1px; width: 90%; margin: 1% 10%; border: #fbf7ffff solid;"></div>
+
+        <button class="links tilel_nodes" onclick="open_planets()"><div class="links tilel_nodes"><b><i>-- Планеты --</i></b></div></button>
+
+        <button class="links tilel_nodes" onclick="open_sun()"><div><span style="color:#FFCC00"><b>С</b></span>олнце</div></button>
+        <button class="links tilel_nodes" onclick="open_mercury()"><div><span style="color:#F8F8FB"><b>М</b></span>еркурий</div></button>
+        <button class="links tilel_nodes" onclick="open_venus()"><div><span style="color:#E69617"><b>В</b></span>енера</div></button>
+        <button class="links tilel_nodes" onclick="open_earth()"><div><span style="color:#98FB98"><b>З</b></span>емля</div></button>
+        <button class="links tilel_nodes" onclick="open_mars()"><div><span style="color:#E52B50"><b>М</b></span>арс</div></button>
+
+        <button class="links tilel_nodes" onclick="open_satellites()"><div class="links tilel_nodes"><b><i>-- Спутники --</i></b></div></button>
+
+        <button class="links tilel_nodes" onclick="open_moon()"><div><span style="color:#C5D0E6"><b>Л</b></span>уна</div></button>
+        <button class="links tilel_nodes" onclick="open_phobos()"><div><span style="color:#AB274F"><b>Ф</b></span>обос</div></button>
+        <button class="links tilel_nodes" onclick="open_deimoss()"><div><span style="color:#AB274F"><b>Д</b></span>еймос</div></button>
+
+
         <div class="links tilel_nodes" style="height: 1px; width: 90%; margin: 1% 10%; border: #fbf7ffff solid;"></div>
         <div class="links tilel_nodes"><b><i>Wwelol's</i></b></div>
         
@@ -45,12 +64,7 @@
         <button class="links tilel_nodes" onclick="window.open('https://www.youtube.com/@masterorion1662')"><div>youtube</div></button>
         <button class="links tilel_nodes" onclick="window.open('https://github.com/Makssupertop1')"><div>github</div></button>
 
-        <div class="links tilel_nodes" style="height: 1px; width: 90%; margin: 1% 10%; border: #fbf7ffff solid;"></div>
-        <div class="links tilel_nodes"><b><i>Статьи</i></b></div>
-
-        <button class="links tilel_nodes" onclick="open_sun()"><div>Солнце</div></button>
-
-        <div class="links tilel_nodes" style="height: 1px; width: 90%; margin: 1% 10%; border: #fbf7ffff solid;"></div>
+        <div class="links tilel_nodes" style="height: 1px; width: 90%; margin: 1% 10%; border: #fbf7ff solid;"></div>
         <div class="links tilel_nodes"><b><i>Разрабам</i></b></div>
 
         <button class="links tilel_nodes" onclick="window.open('https://popup-js.readthedocs.io/en/latest/')"><div>popupJs doc.</div></button>
