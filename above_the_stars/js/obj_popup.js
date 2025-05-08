@@ -112,7 +112,7 @@ const MarsPopup = new Popup({
         радиус: 3389 км
         масса: 6,4171⋅10²³ кг
 
-        Имеет имя обозначает бога войны.
+        Имеет имя обозначающее бога войны.
         Марс почти в 2 раза меньше земли!
         Находится Марс в среднем 228,38 млн. км от земли.
         `,
@@ -121,6 +121,58 @@ const MarsPopup = new Popup({
 
 function open_mars(){
     MarsPopup.show()
+}
+
+// Юпитер
+const JupiterPopup = new Popup({
+    id: "jupiter-popup",
+    backgroundColor: "#040013ff",
+    borderWidth: "10px",
+    borderColor: "#c87137ff",
+    titleColor: "#c87137ff",
+    textColor: "#c87137ff",
+    //---------------------
+    title: "Юпитер",
+    content: `возраст: 4,6 млрд. лет
+        радиус: 69911 км
+        масса: 1,898⋅10²⁷ кг
+
+        Имеет имя обозначающее бога неба, дневного света, грозы.
+        Юпитер — самая большая планета в Солнечной системе!
+        Один из трёх газовых гигантов.
+        У планеты целых 95 известных спутников! Мы не сможем показать столько!
+        `,
+    showImmediately: false
+});
+
+function open_jupiter(){
+    JupiterPopup.show()
+}
+
+// Сатурн
+const SaturnPopup = new Popup({
+    id: "saturn-popup",
+    backgroundColor: "#040013ff",
+    borderWidth: "10px",
+    borderColor: "#e9ddafff",
+    titleColor: "#e9ddafff",
+    textColor: "#e9ddafff",
+    //---------------------
+    title: "Cатурн",
+    content: `возраст: 4,5 млрд. лет
+        радиус: 58232 км
+        масса: 5,683⋅10²⁶ кг
+
+        Имя соответствует греческому Кроносу — богу земледелия, который, по мифическому сюжету, пожирал своих детей.
+        Cатурн — вторая по размерам планета в Солнечной системе!
+        Один из трёх газовых гигантов.
+        Имеет 24 регулярных спутника, к сожалению нам не получается показать их всех.
+        `,
+    showImmediately: false
+});
+
+function open_saturn(){
+    SaturnPopup.show()
 }
 
 // Луна
@@ -194,4 +246,105 @@ const DeimosPopup = new Popup({
 
 function open_deimoss(){
     DeimosPopup.show()
+}
+
+// Ио
+const IoPopup = new Popup({
+    id: "io-popup",
+    backgroundColor: "#040013ff",
+    borderWidth: "10px",
+    borderColor: "#f7e532ff",
+    titleColor: "#f7e532ff",
+    textColor: "#f7e532ff",
+    //---------------------
+    title: "Ио",
+    content: `возраст: ≈4,5 млрд. лет
+        радиус: 1821,6 км
+        масса: 8,9319⋅10²² кг
+
+        Самый близкий к планете из четырёх галилеевых спутников. 
+        Назван в честь мифологической Ио — жрицы Геры и возлюбленной Зевса.
+        (галилеевы спутники - это собирательное название четырёх крупнейших спутников Юпитера)
+        `,
+    showImmediately: false
+});
+
+function open_io(){
+    IoPopup.show()
+}
+
+// Ио 
+const EuropaPopup = new Popup({
+    id: "europa-popup",
+    backgroundColor: "#040013ff",
+    borderWidth: "10px",
+    borderColor: "#f4eed7ff",
+    titleColor: "#f4eed7ff",
+    textColor: "#f4eed7ff",
+    //---------------------
+    title: "Европа",
+    content: `возраст: 4,5 млрд. лет
+        радиус: 1560,8 км
+        масса: 4,8017⋅10²² кг
+
+        Шестой по отдалённости от планеты спутник Юпитера.
+        Наименьший из четырёх галилеевых спутников. 
+        Обнаружена в 1610 году Галилео Галилеем и, вероятно, Симоном Марием в то же самое время.
+        (галилеевы спутники - это собирательное название четырёх крупнейших спутников Юпитера)
+        `,
+    showImmediately: false
+});
+
+function open_europa(){
+    EuropaPopup.show()
+}
+
+// Ганимед  
+const GanymedePopup = new Popup({
+    id: "ganymede-popup",
+    backgroundColor: "#040013ff",
+    borderWidth: "10px",
+    borderColor: "#eee3bcff",
+    titleColor: "#eee3bcff",
+    textColor: "#eee3bcff",
+    //---------------------
+    title: "Ганимед",
+    content: `возраст: 4,5 млрд. лет
+        радиус: 5268 км
+        масса: 1,4819⋅10²³ кг
+
+        Седьмой по отдалённости от планеты спутник Юпитера.
+        Крупнейший спутник в Солнечной системе.
+        (галилеевы спутники - это собирательное название четырёх крупнейших спутников Юпитера)
+        `,
+    showImmediately: false
+});
+
+function open_ganymede(){
+    GanymedePopup.show()
+}
+
+// Каллисто 
+const CallistoPopup = new Popup({
+    id: "callisto-popup",
+    backgroundColor: "#040013ff",
+    borderWidth: "10px",
+    borderColor: "#cc9b7dff",
+    titleColor: "#cc9b7dff",
+    textColor: "#cc9b7dff",
+    //---------------------
+    title: "Каллисто",
+    content: `возраст: 4,5 млрд. лет
+        радиус: 2410,3 км
+        масса: 1,075⋅10²³ кг
+
+        Является третьим по величине спутником в Солнечной системе
+        Один из четырёх галилеевых спутников.
+        (галилеевы спутники - это собирательное название четырёх крупнейших спутников Юпитера)
+        `,
+    showImmediately: false
+});
+
+function open_callisto(){
+    CallistoPopup.show()
 }

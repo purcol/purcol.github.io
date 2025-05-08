@@ -33,8 +33,8 @@ window.onwheel=({deltaY})=>{
     coll.sum = 0;
 
     //магия с изменением html
-    if(scale<250){scale=250;}
-    else if(scale>5000){scale=5000;}
+    if(scale<500){scale=500;}
+    else if(scale>1000){scale=1000;}
 
     node.style.position = "absolute";
     node.style.scale = scale*0.01;
